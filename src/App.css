@@ -88,3 +88,70 @@ nav ul li {
     color: var(--gray);
     border: 1px solid;
  }
+
+ @media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-btn button {
+        font-size: 20px;
+    }
+}
+ @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav ul li {
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .hero-btn button {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+}
